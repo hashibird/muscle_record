@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './components/content/App';
 import reportWebVitals from './reportWebVitals';
+import { Header } from './components/header/Header';
+import { Create } from './components/create/Create';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Header />
     <App />
+    <Create id="create"/>
   </React.StrictMode>,
   document.getElementById('root')
 );

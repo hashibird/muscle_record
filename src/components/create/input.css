@@ -1,0 +1,23 @@
+.input__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.input__check {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.input__num {
+    height: 1.5rem;
+    width: 2rem;
+}
+
+.input__container label {
+    background: #b9b6ae;
+    border-radius: 10px;
+    padding: 0.6rem 1.5rem;
+}
